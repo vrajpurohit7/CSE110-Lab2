@@ -25,7 +25,7 @@ public class BetterMainActvityTest {
             activity.findViewById(R.id.btn_plus).performClick();
             activity.findViewById(R.id.btn_one).performClick();
             activity.findViewById(R.id.btn_equals).performClick();
-            activity.findViewById(R.id.btn_two).performClick();
+            //activity.findViewById(R.id.btn_two).performClick();
             TextView answer = activity.findViewById(R.id.display);
             assertEquals("2", answer.getText());
         });
